@@ -105,11 +105,9 @@ function makeRow() {
 
 // Function to generate random colors
 function getRandomColor() {
-  let r = Math.floor(Math.random() * 256);
-  let g = Math.floor(Math.random() * 256);
-  let b = Math.floor(Math.random() * 256);
-  return `rgb(${r}, ${g}, ${b})`;
+  return 'rgb(255, 255, 255)'; // Always return white color
 }
+
 
 // Function to generate random colors except black
 function getRandomColorExceptBlack() {
